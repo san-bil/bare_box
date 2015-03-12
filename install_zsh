@@ -1,5 +1,5 @@
 #!/bin/zsh
-
+sudo apt-get instal git vim
 rm $HOME/.zshrc
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
